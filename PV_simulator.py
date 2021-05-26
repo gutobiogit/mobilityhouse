@@ -13,13 +13,15 @@ class DynamicPlotter():
         self._interval = int(sampleinterval*1000)
         self._bufsize = int(timewindow/sampleinterval)*10000
         self.databuffer = collections.deque([0.0]*self._bufsize, self._bufsize)
-        self.databuffer2 = collections.deque([0.0]*self._bufsize, self._bufsize)
+        self.databuffer2 = collections.deque([datetime.now().timestamp()]*self._bufsize, self._bufsize)
         self.databuffer3 = collections.deque([0.0]*self._bufsize, self._bufsize)
-        self.databuffer2.append(datetime.now().timestamp())#########################
+        #self.databuffer2.append()
+        #self.databuffer4=[*self.databuffer2]
+        #self.databuffer4.append(datetime.now().timestamp())
 
         self.y = np.zeros(self._bufsize, dtype=np.float)
         self.y_PV = np.zeros(self._bufsize, dtype=np.float)
-        self.x = [*self.y]
+        self.x = np.zeros(self._bufsize, dtype=np.float)
         #self.x[0]=datetime.now()
         #Magic table 
         self.PV_control={}
@@ -82,14 +84,11 @@ class DynamicPlotter():
 
     def callback(self,ch, method, properties, body):
         self.received_data=int(body)
-        print(self.received_data)
-        print("ok")
+
 
     def getdata(self):
         new=[]
-        #frequency = 0.5
         time_now=datetime.now()
-        #noise = random.normalvariate(0., 1.)
         new.append(self.received_data)
         new.append(time_now)
         new.append(self.parse_magic(str(time_now.time())[:8]))
