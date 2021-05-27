@@ -23,6 +23,9 @@ It output a file named "Data_recorded.csv" which has a timestamp ,meter data, PV
 ```python3 
 pip3 install pyqtgraph
 ```
+
+
+
 *  RabbitMQ   https://www.rabbitmq.com/install-debian.html#installation-methods
 ```bash
 #!/bin/sh
