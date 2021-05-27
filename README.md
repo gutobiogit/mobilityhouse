@@ -19,7 +19,7 @@ It output a file named "Data_recorded.csv" which has a timestamp ,meter data, PV
 
 <h1 align="center"> What I need?</h1>
 
-```bash 
-* pip3 install pyqtgraph
+```python 
+pip3 install pyqtgraph
 ```
 
