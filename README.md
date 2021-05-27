@@ -17,4 +17,9 @@ This programs are part of the mobilityhouse PV Simulator Challenge.
 * **PV_simulator.py** is a program which load data from the broker and print a graphic. The program also looks in magic_table for the PV production during the day.
 It output a file named "Data_recorded.csv" which has a timestamp ,meter data, PV simulator, meter data + PV simulator.
 
+<h1 align="center"> What I need?</h1>
+
+```bash 
+* pip3 install pyqtgraph
+```
 
