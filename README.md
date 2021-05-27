@@ -81,6 +81,7 @@ sudo apt-get install rabbitmq-server -y --fix-missing
  python3 VP_simulator.py
  ```
 <h1 align="center">Output</h1>
-* **VCL  pyQt** 
 
-* **FILE - Data_recorded.csv <timestamp,Meter reading, Pv simulator calc, Meter reading + Pv simulator>**
+* **VCL**  pyQt 
+
+* **FILE** - Data_recorded.csv <timestamp,Meter reading, Pv simulator calc, Meter reading + Pv simulator>
