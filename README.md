@@ -68,3 +68,14 @@ sudo apt-get install -y erlang-base \
 sudo apt-get install rabbitmq-server -y --fix-missing
  
  ```
+ 
+ <h1 align="center"> How to run</h1>
+ 
+ **Start the client**
+ ```bash
+ python3 meter_sender.py```
+ 
+ **Start the simulator**
+ ```bash
+ python3 VP_simulator.py```
+ 
