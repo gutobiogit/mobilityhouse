@@ -71,12 +71,15 @@ sudo apt-get install rabbitmq-server -y --fix-missing
  
  <h1 align="center"> How to run</h1>
  
- **Start the client**
+* **Start the client**
  ```bash
  python3 meter_sender.py
  ```
  
- **Start the VP simulator**
+* **Start the VP simulator**
  ```bash
  python3 VP_simulator.py
  ```
+<h1 align="center">Output</h1>
+* **VCL**
+* **Data_recorded.csv** <timestamp,Meter reading, Pv simulator calc, Meter reading + Pv simulator>
