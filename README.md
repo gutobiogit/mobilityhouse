@@ -21,5 +21,6 @@ It output a file named "Data_recorded.csv" which has a timestamp ,meter data, PV
 
 * **http://www.pyqtgraph.org/**  
 ```python 
-pip3 install pyqtgraph```
+pip3 install pyqtgraph
+```
 
