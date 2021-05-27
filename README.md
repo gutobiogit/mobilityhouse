@@ -73,9 +73,10 @@ sudo apt-get install rabbitmq-server -y --fix-missing
  
  **Start the client**
  ```bash
- python3 meter_sender.py```
+ python3 meter_sender.py
+ ```
  
- **Start the simulator**
+ **Start the VP simulator**
  ```bash
- python3 VP_simulator.py```
- 
+ python3 VP_simulator.py
+ ```
