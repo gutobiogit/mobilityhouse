@@ -5,7 +5,7 @@
 
 <img src="images/12_14hrs.png" alt="Image0" width="50%" height="20%"><img src="images/12_14hrs_0.png" alt="Image1" width="50%" height="20%">
 <img src="images/12_14hrs_4.png" alt="Image4" width="50%" height="20%"><img src="images/12_14hrs_8.png" alt="Image8" width="50%" height="20%">
-<img src="images/12_14hrs_12.png" alt="Image12" width="50%" height="20%"><img src="images/12_14hrs_17.png" alt="Image17" width="50%" height="20%">
+<img src="images/12_14hrs_13.png" alt="Image13" width="50%" height="20%"><img src="images/12_14hrs_20.png" alt="Image20" width="50%" height="20%">
 
 <h1 align="center"> What is it?</h1>
 This programs are part of the mobilityhouse PV Simulator Challenge.
