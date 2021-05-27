@@ -69,7 +69,7 @@ sudo apt-get install rabbitmq-server -y --fix-missing
  
  ```
  
- <h1 align="center"> How to run</h1>
+ <h1 align="center"> How to run it</h1>
  
 * **Start the client**
  ```bash
