@@ -33,6 +33,7 @@ class DynamicPlotter():
     def __init__(self, sampleinterval=0.1, timewindow=10., size=(600,350)):
         #Set lists 
         self._interval = int(sampleinterval*1000)
+        #Buffer size is how much data it can store. The graph will show only this much of data
         self._bufsize = int(timewindow/sampleinterval)*10000
         self.databuffer = collections.deque([0.0]*self._bufsize, self._bufsize)
         #set first point in the graph, if set to 0 data will begin at 1/1/1970(0 unixtime)
