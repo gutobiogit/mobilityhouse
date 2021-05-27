@@ -82,6 +82,6 @@ sudo apt-get install rabbitmq-server -y --fix-missing
  ```
 <h1 align="center">Output</h1>
 
-* **VCL**  pyQt 
+* **VCL** -s pyQt 
 
 * **FILE** - Data_recorded.csv <timestamp,Meter reading, Pv simulator calc, Meter reading + Pv simulator>
