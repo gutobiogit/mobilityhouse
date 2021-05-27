@@ -19,8 +19,11 @@ It output a file named "Data_recorded.csv" which has a timestamp ,meter data, PV
 
 <h1 align="center"> What I need?</h1>
 
-* **http://www.pyqtgraph.org/**  
-```python 
+* ** PYQTGRAPH http://www.pyqtgraph.org/**  
+```python3 
 pip3 install pyqtgraph
 ```
-
+* ** RabbitMQ https://www.rabbitmq.com/install-debian.html#installation-methods**
+```python3
+ 
+ ```
